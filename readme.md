@@ -1,0 +1,7 @@
+- Every resource should have the tag "modified_on" which should have the value of the current timestamp based on the format as YYY-MM-DD
+- Autoscaling rules CPU < 10 = scale in, CPU > 80 = scale out
+- NSG should only allow incoming traffic from loadbalancer to the backend pool (vmms)
+- Set env variables for everything
+- Use locals wherever possible to make the code manageable
+- Use dynamic block for NSG
+- Use map for vm size based on the env name
